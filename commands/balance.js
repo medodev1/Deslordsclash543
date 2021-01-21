@@ -7,6 +7,7 @@ module.exports = {
     aliases: ['credit','bal'],
     usage: '',
     category: 'General',
+    cooldown:'5',
     execute(message, args){
         if (args[0]) {
             var user = message.mentions.users.first()

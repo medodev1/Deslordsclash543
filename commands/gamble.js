@@ -9,6 +9,7 @@ module.exports = {
     aliases: ['gamble'],
     usage: '[amount] or .flip max or .flip all',
     category: 'fun',
+    cooldown:'15',
     execute(message, args){
       
         const embed = new Discord.MessageEmbed()

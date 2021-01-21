@@ -4,6 +4,7 @@ module.exports = {
     aliases: ['p'],
     usage: '',
     category: 'General',
+    cooldown:'5',
     execute(message, args){
         message.channel.send('pong!');
     }

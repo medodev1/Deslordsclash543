@@ -5,6 +5,7 @@ module.exports = {
     aliases: [],
     usage: '[@user]',
     category: 'Fun',
+    cooldown:'10',
     execute(message, args){
 
         if (args[0]) {

@@ -6,6 +6,7 @@ module.exports = {
     aliases: ['ci','cinvite'],
     usage: 'number',
     category: 'General',
+    cooldown:'60',
     execute(message, args){
         let maxusers = args.slice(0).join(" ")
         if(!maxusers){

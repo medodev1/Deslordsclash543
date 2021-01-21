@@ -8,6 +8,7 @@ module.exports = {
     aliases: [],
     usage: '[@user] [amount]',
     category: 'General',
+    cooldown:'15',
     execute(message, args, client){
 
         let user = message.mentions.members.first();

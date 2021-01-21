@@ -5,6 +5,7 @@ module.exports = {
     aliases: ['av'],
     usage: '[@user]',
     category: 'General',
+    cooldown:'3',
     execute(message ,args){
       
     var mentionned = message.mentions.users.first();

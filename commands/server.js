@@ -5,6 +5,7 @@ module.exports = {
     aliases: ['srvr'],
     usage: '',
     category: 'General',
+    cooldown:'10',
     execute(message, args){
        
         const Embed2 = new Discord.MessageEmbed()

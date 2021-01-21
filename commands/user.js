@@ -7,6 +7,7 @@ module.exports = {
     aliases: ['me'],
     usage: '',
     category: 'General',
+    cooldown:'10',
     execute(message, args ){
     
  
