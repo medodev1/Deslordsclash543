@@ -11,7 +11,7 @@ content: Array,
  module.exports = mongoose.model("warnings", Schema2);
 
  mongoose.connection.on('connected', () => {
-    console.log('Warnings has successfully connected!');
+    console.log('Warnings connected!');
 });
 
 mongoose.connection.on('err', err => {

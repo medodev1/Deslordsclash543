@@ -7,6 +7,7 @@ userID: String,
 lb: String,
 money: Number,
 daily: Number,
+work: Number,
 
 })
  module.exports = mongoose.model("Data", dataSchema);
